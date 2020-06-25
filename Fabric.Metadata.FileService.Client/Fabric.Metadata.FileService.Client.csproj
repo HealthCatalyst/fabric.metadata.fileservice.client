@@ -10,7 +10,15 @@
     <RepositoryType>Github</RepositoryType>
     <PackageLicenseUrl>https://github.com/HealthCatalyst/fabric.metadata.fileservice.client/blob/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/HealthCatalyst/fabric.metadata.fileservice.client</PackageProjectUrl>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" PrivateAssets="All" />
+  </ItemGroup>
+
 
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
